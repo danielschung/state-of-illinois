@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="371px" height="393px" viewBox="0 0 371 393" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>building</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,0 L69,0 L69,23 C69,25.209139 67.209139,27 65,27 L4,27 C1.790861,27 2.23265109e-15,25.209139 0,23 L0,0 Z" id="path-1"></path>
+        <path d="M0,0 L69,0 L69,23 C69,25.209139 67.209139,27 65,27 L4,27 C1.790861,27 2.705415e-16,25.209139 0,23 L0,0 Z" id="path-3"></path>
+        <path d="M0,0 L69,0 L69,23 C69,25.209139 67.209139,27 65,27 L4,27 C1.790861,27 2.23265109e-15,25.209139 0,23 L0,0 Z" id="path-5"></path>
+        <path d="M0,0 L69,0 L69,23 C69,25.209139 67.209139,27 65,27 L4,27 C1.790861,27 2.705415e-16,25.209139 0,23 L0,0 Z" id="path-7"></path>
+        <path d="M0,0 L69,0 L69,23 C69,25.209139 67.209139,27 65,27 L4,27 C1.790861,27 2.23265109e-15,25.209139 0,23 L0,0 Z" id="path-9"></path>
+        <path d="M0,0 L69,0 L69,23 C69,25.209139 67.209139,27 65,27 L4,27 C1.790861,27 2.705415e-16,25.209139 0,23 L0,0 Z" id="path-11"></path>
+        <path d="M166.800015,1.95864925 L319.955664,122.860363 C321.689637,124.229169 321.985664,126.744469 320.616858,128.478443 C319.858302,129.439366 318.701468,130 317.477221,130 L11.5028842,130 C9.29374517,130 7.50288417,128.209139 7.50288417,126 C7.50288417,124.777257 8.06214876,123.621673 9.02107884,122.86302 L161.839767,1.96130659 C163.292978,0.811606467 165.345573,0.810506836 166.800015,1.95864925 Z" id="path-13"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-65.000000, -54.000000)">
+            <g id="building" transform="translate(65.000000, 53.000000)">
+                <g id="floor" transform="translate(0.000000, 371.000000)">
+                    <rect id="Rectangle" fill="#DEEAFF" x="0" y="0" width="371" height="23" rx="4"></rect>
+                    <path d="M355,0 L371,0 L371,23 L355,23 C356.278054,21.4704679 356.917081,20.1066293 356.917081,18.908484 C356.917081,14.359021 356.917081,7.41425185 356.917081,5.19333362 C356.917081,2.1305324 356.278054,0.399421191 355,0 Z" id="Rectangle" fill="#BCD0F2"></path>
+                </g>
+                <g id="bottom-gutter" transform="translate(12.000000, 348.000000)">
+                    <rect id="Rectangle" fill="#FDD4DB" x="0" y="0" width="346" height="23" rx="4"></rect>
+                    <path d="M331,0 L346,0 L346,23 L331,23 C332.198176,21.4704679 332.797263,20.1066293 332.797263,18.908484 C332.797263,14.359021 332.797263,7.41425185 332.797263,5.19333362 C332.797263,2.1305324 332.198176,0.399421191 331,0 Z" id="Rectangle" fill="#FFACBB"></path>
+                </g>
+                <g id="column3" transform="translate(257.000000, 148.000000)">
+                    <g id="bottom-of-column" transform="translate(34.500000, 186.500000) scale(1, -1) translate(-34.500000, -186.500000) translate(0.000000, 173.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Rectangle" fill="#6C6B9B" xlink:href="#path-1"></use>
+                        <polygon id="Rectangle" fill="#56567C" mask="url(#mask-2)" points="52 0 69 0 69 27 52 27 53.0822973 22.3139854 53.0822973 4.92918987"></polygon>
+                    </g>
+                    <g id="column-body" transform="translate(12.000000, 27.000000)">
+                        <rect id="Rectangle" fill="#DEEAFF" x="0" y="0" width="46" height="147"></rect>
+                        <rect id="Rectangle" fill="#BCD0F2" x="22" y="0" width="24" height="147"></rect>
+                    </g>
+                    <g id="top-of-column" transform="translate(0.000000, 0.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Rectangle" fill="#6C6B9B" xlink:href="#path-3"></use>
+                        <polygon id="Rectangle" fill="#56567C" mask="url(#mask-4)" points="52 0 69 0 69 27 52 27 53.0822973 22.3139854 53.0822973 4.92918987"></polygon>
+                    </g>
+                </g>
+                <g id="column2" transform="translate(151.000000, 148.000000)">
+                    <g id="bottom-of-column" transform="translate(34.500000, 186.500000) scale(1, -1) translate(-34.500000, -186.500000) translate(0.000000, 173.000000)">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <use id="Rectangle" fill="#6C6B9B" xlink:href="#path-5"></use>
+                        <polygon id="Rectangle" fill="#56567C" mask="url(#mask-6)" points="52 0 69 0 69 27 52 27 53.0822973 22.3139854 53.0822973 4.92918987"></polygon>
+                    </g>
+                    <g id="column-body" transform="translate(12.000000, 27.000000)">
+                        <rect id="Rectangle" fill="#DEEAFF" x="0" y="0" width="46" height="147"></rect>
+                        <rect id="Rectangle" fill="#BCD0F2" x="22" y="0" width="24" height="147"></rect>
+                    </g>
+                    <g id="top-of-column">
+                        <mask id="mask-8" fill="white">
+                            <use xlink:href="#path-7"></use>
+                        </mask>
+                        <use id="Rectangle" fill="#6C6B9B" xlink:href="#path-7"></use>
+                        <polygon id="Rectangle" fill="#56567C" mask="url(#mask-8)" points="52 0 69 0 69 27 52 27 53.0822973 22.3139854 53.0822973 4.92918987"></polygon>
+                    </g>
+                </g>
+                <g id="column1" transform="translate(45.000000, 148.000000)">
+                    <g id="bottom-of-column" transform="translate(34.500000, 186.500000) scale(1, -1) translate(-34.500000, -186.500000) translate(0.000000, 173.000000)">
+                        <mask id="mask-10" fill="white">
+                            <use xlink:href="#path-9"></use>
+                        </mask>
+                        <use id="Rectangle" fill="#6C6B9B" xlink:href="#path-9"></use>
+                        <polygon id="Rectangle" fill="#56567C" mask="url(#mask-10)" points="52 0 69 0 69 27 52 27 53.0822973 22.3139854 53.0822973 4.92918987"></polygon>
+                    </g>
+                    <g id="column-body" transform="translate(12.000000, 27.000000)">
+                        <rect id="Rectangle" fill="#DEEAFF" x="0" y="0" width="46" height="147"></rect>
+                        <rect id="Rectangle" fill="#BCD0F2" x="22" y="0" width="24" height="147"></rect>
+                    </g>
+                    <g id="top-of-column">
+                        <mask id="mask-12" fill="white">
+                            <use xlink:href="#path-11"></use>
+                        </mask>
+                        <use id="Rectangle" fill="#6C6B9B" xlink:href="#path-11"></use>
+                        <polygon id="Rectangle" fill="#56567C" mask="url(#mask-12)" points="52 0 69 0 69 27 52 27 53.0822973 22.3139854 53.0822973 4.92918987"></polygon>
+                    </g>
+                </g>
+                <g id="top-gutter" transform="translate(12.000000, 125.000000)">
+                    <rect id="Rectangle" fill="#FDD4DB" x="0" y="0" width="346" height="23" rx="4"></rect>
+                    <path d="M331,0 L346,0 L346,23 L331,23 C332.198176,21.4704679 332.797263,20.1066293 332.797263,18.908484 C332.797263,14.359021 332.797263,7.41425185 332.797263,5.19333362 C332.797263,2.1305324 332.198176,0.399421191 331,0 Z" id="Rectangle" fill="#FFACBB"></path>
+                </g>
+                <g id="roof" transform="translate(20.000000, 0.000000)">
+                    <mask id="mask-14" fill="white">
+                        <use xlink:href="#path-13"></use>
+                    </mask>
+                    <use id="Rectangle" fill="#DEEAFF" xlink:href="#path-13"></use>
+                    <polygon id="Rectangle" fill="#BCD0F2" mask="url(#mask-14)" points="158 5.57070295 165.139521 0 329 129 309.403931 124.815625 305.474767 121.385328"></polygon>
+                    <circle id="Oval" fill="#FDD4DB" cx="165.5" cy="92.5" r="18.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

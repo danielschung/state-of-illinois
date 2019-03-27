@@ -1,0 +1,678 @@
+//colors
+$black:#282828;
+$light-grey:#F9F9FA;
+$purple:#7259AE;
+$arrow:#615D76;
+$footnote:#797979;
+$border:#DCDEDF;
+
+html {
+	margin:0;
+	padding:0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
+.hover {
+	-o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+}
+
+div.clear {
+	clear:both;
+}
+
+div.wrapper {
+	margin:0 auto;
+	max-width:1250px;
+	padding:20px;
+}
+
+div.state-of-illinois {
+
+	//root font size 16px
+
+	div.header {
+		background:rgba(40,40,40,1);
+		background-image:url('../images/soi-header.jpg');
+		background-position:0 40%;
+		background-size:cover;
+		height:34.375rem;
+		width:100%;
+
+		div.container {
+			margin:0 auto;
+			max-width:650px;
+			position:relative;
+			text-align:center;
+			top:50%;
+			transform:translateY(-50%);
+
+			h1 {
+				color:white;
+			}
+
+			p.subheader {
+				color:white;
+				font-size:1.25rem;
+				margin-top:13px;
+				margin-bottom:2.6875rem;
+			}
+
+			a.breakout-link {
+				color:white;
+				font-size:1rem;
+				line-height:1.75rem;
+			}
+
+		}
+
+	}
+
+	div.intro {
+		background-color:$light-grey;
+
+		div.container {
+			padding:60px 0;
+			height:auto;
+
+			h2 {
+				color:$purple;
+				font-size:1.25rem;
+				margin-bottom:1.25rem;
+			}
+
+			p.intro-text {
+				color:$black;
+				float:left;
+				font-size:1.5rem;
+				line-height:2.25rem;
+				max-width:500px;
+			}
+
+			button.purple {
+				background-color:$purple;
+				border-radius:0.1875rem;
+				color:white;
+				font-weight:500;
+				height:3.75rem;
+				width:16.25rem;
+				@extend .hover;
+			}
+
+			button.purple:hover {
+				background-color:#614A98;
+			}
+
+			button.right {
+				float:right;
+			}
+
+		}
+
+
+	}
+
+	div.section {
+
+		div.container {
+			height:auto;
+			margin-top:100px;
+
+
+			div.inner-container {
+				float:left;
+				margin-top:45px;
+
+				h3 {
+					color:$black;
+					font-size:3.75rem;
+					line-height:67px;
+				}
+
+				ul {
+					margin-left:0;
+					margin-top:2.2rem;
+
+					li {
+						color:$black;
+						font-size:20px;
+						line-height:24px;
+						list-style-type:none;
+						margin-bottom:6.7px;
+						@extend .hover;
+
+						i {
+							color:$arrow;
+							font-size:2rem;
+							position:relative;
+							top:7px;
+							@extend .hover;
+						}
+
+					}
+
+					li:hover {
+						color:$purple;
+					}
+
+					li:hover > i {
+						color:$purple;
+					}
+
+					li:before {
+						background-image:url('../images/icons/bullet.png');
+						background-repeat:no-repeat;
+						background-size:11px;
+						content:"";
+						display:inline-block;
+						height:11px;
+						padding-right:30px;
+						width:11px;
+					}
+
+				}	
+
+			}
+
+			div.plan-details-image {
+				background-image:url('../images/soi-plan-details.jpg');
+				background-repeat:no-repeat;
+				background-position:-40px -50px;
+				background-size:60rem;
+				float:right;
+				height:461px;
+				width:50%;
+			}
+
+		}
+
+	}
+
+	div.aside {
+		margin-top:100px;
+
+		h4 {
+			color:$black;
+			font-size:28px;
+			text-align:center;
+		}
+
+		div.container {
+			height:auto;
+			margin:67px 0 0 0;
+			padding:0;
+
+			div.inner-container {
+				display:inline-block;
+				height:auto;
+				text-align:center;
+				width:30%;
+
+				div.illustration {
+					height:143px;
+					margin:0 auto;
+					width:143px;
+				}
+
+			}
+
+			div.inner-container.left {
+				float:left;
+				margin:0 5% 0 0;
+
+				div.illustration {
+					background-image:url('../images/icons/thumb.svg');
+					background-repeat: no-repeat;
+					background-size:contain;
+				}
+
+			}
+
+			div.inner-container.center {
+				margin:0 auto;
+
+				div.illustration {
+					background-image:url('../images/icons/teacher.svg');
+					background-repeat: no-repeat;
+					background-size:contain;
+				}
+
+			}
+
+			div.inner-container.right {
+				float:right;
+				margin:0 0 0 5%;
+
+				div.illustration {
+					background-image:url('../images/icons/building.svg');
+					background-repeat: no-repeat;
+					background-size:contain;
+				}
+
+			}
+
+			h5 {
+				color:$black;
+				font-size:1rem;
+				line-height:1.5rem;
+				margin-top:3.75rem;
+			}
+
+			p {
+				color:$black;
+				font-size:1rem;
+				line-height:1.5rem;
+			}
+
+		}
+
+	}
+
+	div.section.enrolling-in-our-plans {
+
+		div.container {
+
+			div.inner-container {
+				margin-top:0;
+
+				h3 {
+					max-width:452px;
+					margin-bottom:24px;
+				}
+
+				p {
+					font-size:1.1875rem;
+					max-width:452px;
+					line-height:1.8125rem;
+				}
+
+				ul {
+					margin-left:0;
+					margin-top:2.2rem;
+
+					li {
+						color:$black;
+						font-size:1rem;
+						line-height:24px;
+						list-style-type:none;
+						margin-bottom:6.7px;
+
+						i {
+							color:$arrow;
+							font-size:2rem;
+							position:relative;
+							top:7px;
+
+						}
+
+					}
+
+					li:before {
+						background-image:url('../images/icons/purple-bullet.png');
+						background-repeat:no-repeat;
+						background-size:11px;
+						content:"";
+						display:inline-block;
+						height:11px;
+						padding-right:30px;
+						width:11px;
+
+					}
+
+				}
+
+				button.white {
+					background-color:white;
+					border:2px solid $purple;
+					border-radius:4px;
+					color:$purple;
+					height:60px;
+					margin-top:1.775rem;
+					width:215px;
+					@extend .hover;
+				}
+
+				button.white:hover {
+					background-color:$purple;
+					border:solid 2px $purple;
+					color:white;
+				}
+
+				p.footnote {
+					color:$footnote;
+					font-size: 14px;
+					line-height: 22px;
+					margin-top:40px;
+					
+				}
+
+			}
+
+			div.enrolling-image {
+				background-image:url('../images/enrolling.jpg');
+				background-position:64% 0;
+				background-size:cover;
+				background-repeat:no-repeat;
+				background-color:$black;
+				float:right;
+				height:621px;
+				width:50%;
+			}
+
+		}
+
+	}	
+
+	div.section.college-extended {
+
+		div.container {
+
+			div.college-image {
+				background-image:url('../images/college.jpg');
+				background-repeat:no-repeat;
+				background-position:-150px 0;
+				background-size:90rem;
+				float:left;
+				height:604px;
+				width:50%;
+			}
+
+			div.inner-container.right {
+				float:right;
+				margin-top:7rem;
+				margin-left:2rem;
+
+				h3 {
+					font-size:48px;
+					line-height:54px;
+					max-width:452px;
+					margin-bottom:24px;
+				}
+
+				p {
+					font-size:1.1875rem;
+					max-width:552px;
+					line-height:1.8125rem;
+				}
+
+				button.white {
+					background-color:white;
+					border:2px solid $purple;
+					border-radius:4px;
+					color:$purple;
+					height:60px;
+					margin-top:1.775rem;
+					width:215px;
+					@extend .hover;
+				}
+
+				button.white:hover {
+					background-color:$purple;
+					border:solid 2px $purple;
+					color:white;
+				}
+
+			}
+
+		}
+
+	}
+
+	div.section.other-plans {
+		margin-bottom:6.7rem;
+
+		div.container {
+			height:auto;
+
+			div.left {
+				float:left;
+				width:48%;
+
+				h1 {
+					color:$purple;
+					font-size:1.25rem;
+					line-height:1.75rem;
+				}
+
+				h3 {
+					color:$black;
+					font-size:3.75rem;
+					line-height:67px;
+					margin-top:1rem;
+				}
+
+				p.title {
+					font-size:1.375rem;
+					font-weight:400;
+					line-height:2.125rem;
+					margin-top:6.4rem;
+				}
+
+				div.inner-container {
+					margin-top:1rem;
+					width:100%;
+
+					div.help-link {
+						border-bottom:solid 1px $border;
+						color:$black;
+						font-size:1.1875rem;
+						font-weight:300;
+						padding:30px 0;
+						@extend .hover;
+
+						i.icon-keyboard_arrow_right {
+							color:$border;
+							font-size:2rem;
+							position:relative;
+							float:right;
+							@extend .hover;
+						}
+
+					}
+
+					div.help-link:hover > i {
+						color:$purple;
+					}
+
+					div.help-link:hover {
+						color:$purple;
+					}
+
+				}
+
+			}
+
+			div.right {
+				float:right;
+				width:48%;
+
+				div.plan-options {
+					border:1px solid $border;
+					border-radius:4px;
+					margin-bottom:2rem;
+					padding:40px 0 17px 0;
+					height:auto;
+
+					div.inner-container {
+						float:none;
+						height:50%;
+						margin:0 auto;
+						width:87%;
+
+						h4 {
+							font-size: 24px;
+							float:left;
+							line-height: 34px;
+							width:70%;
+							@extend .hover;
+						}
+
+						p {
+							font-size:1rem;
+							float:left;
+							line-height:24px;
+							margin-top:0.5rem;
+							width:70%;
+						}
+
+						button.white {
+							background-color:white;
+							border:2px solid $purple;
+							border-radius:4px;
+							color:$purple;
+							float:right;
+							height:60px;
+							position:relative;
+							top:50%;
+							transform:translateY(-50%);
+							width:115px;
+							@extend .hover;
+						}
+
+						button.white:hover {
+							background-color:$purple;
+							border:solid 2px $purple;
+							color:white;
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+// responsive rules 
+@media only screen and (max-width:947px) {
+
+	//Plan details
+	div.state-of-illinois div.section div.container{
+		margin-top:2rem;
+	}
+
+	div.state-of-illinois div.section div.container div.plan-details-image {
+		background-size:43rem;
+		height:330px;
+		margin-top:3rem;
+		width:40%;
+	}
+
+	//Enrolling in our plans
+	div.state-of-illinois div.section.enrolling-in-our-plans
+	div.container div.enrolling-image {
+		background-size:43rem;
+		height:500px;
+		margin-top:1rem;
+		width:40%;
+	}
+
+	//College Extended Network Program
+	div.state-of-illinois div.section.college-extended
+	div.container div.college-image {
+		background-size:43rem;
+		height:530px;
+		margin-top:3rem;
+		width:40%;
+	}
+
+	div.state-of-illinois div.section.college-extended div.container
+	div.inner-container.right {
+		margin-top:2.3rem;
+		margin-left:0;
+	}
+
+	div.state-of-illinois div.section.college-extended
+	div.container div.inner-container.right h3,
+	div.state-of-illinois div.section.college-extended
+	div.container div.inner-container.right p {
+		max-width:420px;
+	}
+
+
+
+}
+
+@media only screen and (max-width:795px) {
+
+	//intro
+	div.state-of-illinois div.intro div.container button.right {
+		float:left;
+		margin-top:2rem;
+	}
+
+	div.state-of-illinois div.intro div.container p.intro-text {
+		max-width:none;
+	}
+
+	//Plan details
+	div.state-of-illinois div.section div.container div.plan-details-image {
+		background-size:50rem;
+		height:400px;
+		margin-top:2rem;
+		width:100%;
+	}
+
+	// Enrolling in our plans
+	div.state-of-illinois div.section.enrolling-in-our-plans
+	div.container div.inner-container {
+		margin-top:2rem;
+	}
+
+	div.state-of-illinois div.section.enrolling-in-our-plans
+	div.container div.inner-container h3,
+	div.state-of-illinois div.section.enrolling-in-our-plans
+	div.container div.inner-container p,
+	 {
+		max-width:none;
+	}
+
+	div.state-of-illinois div.section.enrolling-in-our-plans
+	div.container div.enrolling-image {
+		height:400px;
+		margin-top:3rem;
+		width:100%;
+	}
+
+	// College Extended Network Program
+	div.state-of-illinois div.section.college-extended
+	div.container div.college-image {
+		display:none;
+		margin-top:1rem;
+	}
+
+	div.state-of-illinois div.section.college-extended div.container
+	div.inner-container.right {
+		float:left;
+		margin-top:0;
+		margin-left:0;
+	}
+
+	div.state-of-illinois div.section.college-extended div.container
+	div.inner-container.right h3,
+	div.state-of-illinois div.section.college-extended div.container
+	div.inner-container.right p {
+		max-width:none;
+	}
+
+	//Other Plans
+	div.state-of-illinois div.section.other-plans div.container div.left {
+		float:none;
+		width:100%;
+	}
+
+	div.state-of-illinois div.section.other-plans div.container div.right {
+		float:none;
+		margin-top:5rem;
+		width:100%;
+	}
+
+
+}
