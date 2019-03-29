@@ -62,9 +62,30 @@ div.state-of-illinois {
 			}
 
 			a.breakout-link {
+				border:1px solid white;
+				border-radius:4px;
 				color:white;
 				font-size:1rem;
 				line-height:1.75rem;
+				margin-right:0.7rem;
+				padding:20px;
+				width:190px;
+
+			}
+
+			button.purple {
+				background-color:$purple;
+				border-radius:4px;
+				color:white;
+				clear:both;
+				height:60px;
+				margin-top:1.775rem;
+				width:190px;
+				@extend .hover;
+			}
+
+			button.purple:hover {
+				background-color:#614A98;
 			}
 
 		}
